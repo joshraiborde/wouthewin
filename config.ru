@@ -6,4 +6,7 @@ end
 
 use Rack::MethodOverride
 
+
+use WeatherPostsController
+use UsersController
 run ApplicationController
